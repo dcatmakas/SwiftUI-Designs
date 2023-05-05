@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		432BBEA82A04FE3F00401E76 /* SwiftUI_DesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432BBEA72A04FE3F00401E76 /* SwiftUI_DesignApp.swift */; };
-		432BBEAA2A04FE3F00401E76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432BBEA92A04FE3F00401E76 /* ContentView.swift */; };
 		432BBEAC2A04FE4000401E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432BBEAB2A04FE4000401E76 /* Assets.xcassets */; };
 		432BBEAF2A04FE4000401E76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432BBEAE2A04FE4000401E76 /* Preview Assets.xcassets */; };
+		432BBEB82A05115D00401E76 /* LoginDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432BBEB72A05115D00401E76 /* LoginDesign.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		432BBEA42A04FE3F00401E76 /* SwiftUI Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		432BBEA72A04FE3F00401E76 /* SwiftUI_DesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_DesignApp.swift; sourceTree = "<group>"; };
-		432BBEA92A04FE3F00401E76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		432BBEAB2A04FE4000401E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		432BBEAE2A04FE4000401E76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		432BBEB72A05115D00401E76 /* LoginDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginDesign.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				432BBEA72A04FE3F00401E76 /* SwiftUI_DesignApp.swift */,
-				432BBEA92A04FE3F00401E76 /* ContentView.swift */,
+				432BBEB92A05316000401E76 /* Designs */,
 				432BBEAB2A04FE4000401E76 /* Assets.xcassets */,
 				432BBEAD2A04FE4000401E76 /* Preview Content */,
 			);
@@ -65,6 +65,14 @@
 				432BBEAE2A04FE4000401E76 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		432BBEB92A05316000401E76 /* Designs */ = {
+			isa = PBXGroup;
+			children = (
+				432BBEB72A05115D00401E76 /* LoginDesign.swift */,
+			);
+			path = Designs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				432BBEAA2A04FE3F00401E76 /* ContentView.swift in Sources */,
+				432BBEB82A05115D00401E76 /* LoginDesign.swift in Sources */,
 				432BBEA82A04FE3F00401E76 /* SwiftUI_DesignApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
