@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_DesignApp: App {
     var body: some Scene {
         WindowGroup {
-            LoginDesign()
+            CasePlanningDesign()
         }
     }
 }

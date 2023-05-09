@@ -12,6 +12,7 @@
 		432BBEAF2A04FE4000401E76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432BBEAE2A04FE4000401E76 /* Preview Assets.xcassets */; };
 		432BBEB82A05115D00401E76 /* LoginDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432BBEB72A05115D00401E76 /* LoginDesign.swift */; };
 		43D893F02A0A2A8500996183 /* BeautyAppDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D893EF2A0A2A8500996183 /* BeautyAppDesign.swift */; };
+		43D893F22A0A65EA00996183 /* CasePlanningDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D893F12A0A65EA00996183 /* CasePlanningDesign.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		432BBEAE2A04FE4000401E76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		432BBEB72A05115D00401E76 /* LoginDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginDesign.swift; sourceTree = "<group>"; };
 		43D893EF2A0A2A8500996183 /* BeautyAppDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyAppDesign.swift; sourceTree = "<group>"; };
+		43D893F12A0A65EA00996183 /* CasePlanningDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasePlanningDesign.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				432BBEB72A05115D00401E76 /* LoginDesign.swift */,
 				43D893EF2A0A2A8500996183 /* BeautyAppDesign.swift */,
+				43D893F12A0A65EA00996183 /* CasePlanningDesign.swift */,
 			);
 			path = Designs;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D893F22A0A65EA00996183 /* CasePlanningDesign.swift in Sources */,
 				432BBEB82A05115D00401E76 /* LoginDesign.swift in Sources */,
 				43D893F02A0A2A8500996183 /* BeautyAppDesign.swift in Sources */,
 				432BBEA82A04FE3F00401E76 /* SwiftUI_DesignApp.swift in Sources */,

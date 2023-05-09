@@ -12,6 +12,7 @@ struct BeautyAppDesign: View {
         
         ScrollView {
             VStack {
+                
                 NavigationBarView()
                 
                 CampaignView()
@@ -20,7 +21,7 @@ struct BeautyAppDesign: View {
                 
                 PopularProductsScroll()
                 
-                RecommentedText(name: "Nivea", price: 300.00)
+                RecommentedText(name: "Nivea", price: 300)
 
             }
         }
@@ -158,7 +159,7 @@ struct PopularProductsScroll: View {
 
 struct RecommentedText: View {
     var name: String
-    var price: Float
+    var price: Int
     
     var body: some View {
         VStack {
